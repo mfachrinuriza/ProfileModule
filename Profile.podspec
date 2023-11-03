@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary = "Fachri Expert Dicoding Profile.framework for modularization chapter"
   s.requires_arc = true
 
-  s.version = "1.0.2"
+  s.version = "1.0.3"
  
   s.license = { :type => "MIT", :file => "LICENSE" }
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
 
   s.source_files = "Profile", "Profile/**/*.{h,m,swift}"
-  s.resources = "Profile/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}"
+  s.resources = "Profile/**/*.{png,jpeg,jpg,storyboard,xib,otf,ttf}"
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
 
