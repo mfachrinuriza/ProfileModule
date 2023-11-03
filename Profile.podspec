@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '13.0'
   s.name = "Profile"
-  s.summary = "Fachri Expert Dicoding Core.framework for modularization chapter"
+  s.summary = "Fachri Expert Dicoding Profile.framework for modularization chapter"
   s.requires_arc = true
 
   s.version = "1.0.1"
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
 
   s.framework = "UIKit"
 
-  s.source_files = "Cores", "Cores/**/*.{h,m,swift}"
-  s.resources = "Cores/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}"
+  s.source_files = "Profile", "Profile/**/*.{h,m,swift}"
+  s.resources = "Profile/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}"
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
 
